@@ -1,27 +1,63 @@
-# EssentialsPractice
+![image](https://github.com/user-attachments/assets/39e19719-d67a-435b-b7d2-5e6aa0f2b58c)
+# Angular Investment Calculator Demo Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.0.
+This project is a hands-on exercise designed to solidify your understanding of Angular essentials. We'll build an Investment Calculator application, focusing on practical implementation and reinforcing core concepts.
 
-## Development server
+## Project Goals
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Practice Angular skills through a real-world demo application
+- Build components for header, user input, and investment results
+- Implement two-way binding for user input
+- Dynamically display investment calculations in a table
 
-## Code scaffolding
+## Getting Started
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/angular-investment-calculator.git
+   ```
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+3. **Start the development server:**
+   ```bash
+   npm start
+   ```
 
-## Build
+## Project Structure
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```
+angular-investment-calculator/
+├── public/
+│   └── calculator.svg
+├── src/
+│   ├── app/
+│   │   ├── header/
+│   │   ├── user-input/
+│   │   ├── investment-results/
+│   │   └── app.component.*
+│   ├── styles.css
+│   └── ...
+├── index.html
+├── styles.css
+└── ...
+```
 
-## Running unit tests
+## Key Features
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- **Header Component:** Displays a title and an image (calculator.svg).
+- **User Input Component:** Collects user data (initial investment, annual rate, expected return, duration) using two-way binding.
+- **Investment Results Component:** Presents calculated investment results in a table format.
 
-## Running end-to-end tests
+## Usage
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. Enter your initial investment amount.
+2. Specify the expected annual investment rate.
+3. Input the expected return on investment.
+4. Define the duration of the investment.
+5. View the calculated investment results in the table.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
